@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLPage</title>
+</head>
+<body>
+    <h1>글 작성하기</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="user"><b>작성자</b></label></td>
+                <td><input id="user" type="text" name="user"></td>
+            </tr>
+
+            <tr>
+                <td><label for="id"><b>아이디</b></label></td>
+                <td><input id="id" type="k" name="id"></td>
+            </tr>
+
+            <tr>
+                <td><label for="mail"><b>이메일</b></label></td>
+                <td>
+                    <input id="mail" type="email" name="mail">@
+                    <label for="mail"><b></b></label>
+                    <input id="mail" type="email" name="mail">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="tel"><b>휴대폰</b></label></td>
+                <td>
+                    <select>
+                        <option>010</option>
+                        <option>02</option>
+                        <option>031</option>
+                    </select>-
+                <input id="tel" type="tel" name="tel">-
+                <input id="tel" type="tel" name="tel">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="title"><b>글제목</b></label></td>
+                <td><input type="title" type="text" name="title"></td>
+            </tr>
+
+            <tr>
+                <td><label for="text"><b>내용</b></label></td>
+                <td>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="제출"></td>
+            </tr>
+        </table>    
+    </form>
+</body>
+</html>
